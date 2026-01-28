@@ -26,5 +26,10 @@
     "hostRequirements": {
         "memory": "8gb"
     },
-    "postCreateCommand": "npm install"
+    "postCreateCommand": "npm install",
+    "portsAttributes": {
+        "3030": {
+            "label": "presentation"
+        }
+    }
 }
