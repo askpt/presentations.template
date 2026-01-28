@@ -1,16 +1,30 @@
 {
-  "name": "slidev",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
-  },
-  "dependencies": {
-    "@slidev/cli": "^52.11.3",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.26"
-  }
+    "name": "slidev",
+    "type": "module",
+    "private": true,
+    "description": "A ready-to-use template for creating beautiful, interactive presentations with Slidev",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/askpt/presentations.template.git"
+    },
+    "keywords": [
+        "slidev",
+        "presentation",
+        "template",
+        "vue",
+        "slides",
+        "markdown"
+    ],
+    "scripts": {
+        "build": "slidev build",
+        "dev": "slidev --open",
+        "export": "slidev export"
+    },
+    "dependencies": {
+        "@slidev/cli": "^52.11.3",
+        "@slidev/theme-default": "latest",
+        "@slidev/theme-seriph": "latest",
+        "vue": "^3.5.26"
+    }
 }
