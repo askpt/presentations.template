@@ -1,27 +1,30 @@
 {
-  "name": "sli.dev Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node",
-  "features": {
-    "ghcr.io/devcontainers/features/github-cli:latest": {},
-    "ghcr.io/devcontainers/features/node": {}
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "GitHub.vscode-pull-request-github",
-        "editorconfig.editorconfig",
-        "ms-vsliveshare.vsliveshare",
-        "GitHub.copilot",
-        "GitHub.copilot-chat",
-        "GitHub.vscode-github-actions",
-        "esbenp.prettier-vscode",
-        "antfu.slidev"
-      ]
-    }
-  },
-  "remoteUser": "vscode",
-  "hostRequirements": {
-    "memory": "8gb"
-  },
-  "postCreateCommand": "npm install"
+    "name": "sli.dev Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:latest": {},
+        "ghcr.io/devcontainers/features/node": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.vscode-pull-request-github",
+                "editorconfig.editorconfig",
+                "ms-vsliveshare.vsliveshare",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "GitHub.vscode-github-actions",
+                "esbenp.prettier-vscode",
+                "antfu.slidev",
+                "streetsidesoftware.code-spell-checker",
+                "ms-vscode.wordcount",
+                "johnpapa.read-time"
+            ]
+        }
+    },
+    "remoteUser": "node",
+    "hostRequirements": {
+        "memory": "8gb"
+    },
+    "postCreateCommand": "npm install"
 }
