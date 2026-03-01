@@ -32,7 +32,7 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr build --base /${{github.event.repository.name}}/
+        run: nr build --base /${{github.event.repository.name}}/ --without-notes
         env:
           NODE_OPTIONS: '--max-old-space-size=4096'
 
