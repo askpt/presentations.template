@@ -4,12 +4,12 @@
     "humanizer": {
       "source": "blader/humanizer",
       "sourceType": "github",
-      "computedHash": "c03da5ce68828393461eff0c81a2a81535342daee0c6ca292910395065218433"
+      "computedHash": "b813857f183da05d08d5a80adac671df94c139f855809bd47ab8b7bb245546a2"
     },
     "slidev": {
       "source": "slidevjs/slidev",
       "sourceType": "github",
-      "computedHash": "22e7c5994aaafc9966a1786bdbfcf4dbfa558a3f1705ff1303c9c9df3225ed85"
+      "computedHash": "ae96487f210cf7c082621e28ebb5cd7f867ee0b99d74bf6120ac4085abd4859c"
     }
   }
 }
